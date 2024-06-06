@@ -1,0 +1,54 @@
+#thankyou{
+    
+    color: #fff;
+    text-align: center;
+    text-shadow: 
+        0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 20px #ff9900, 
+        0 0 30px #ff9900, 
+        0 0 40px #ff9900, 
+        0 0 50px #ff9900, 
+        0 0 60px #ff9900, 
+        0 0 70px #ff9900;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 
+            0 0 5px #fff, 
+            0 0 10px #fff, 
+            0 0 20px #ffa200, 
+            0 0 30px #ffa200, 
+            0 0 40px #ffa200, 
+            0 0 50px #ffa200, 
+            0 0 60px #ffa200, 
+            0 0 70px #ffa200;
+    }
+    to {
+        text-shadow: 
+            0 0 10px #fff, 
+            0 0 20px #fff, 
+            0 0 30px #ff6600, 
+            0 0 40px #ff6600, 
+            0 0 50px #ff6600, 
+            0 0 60px #ff6600, 
+            0 0 70px #ff6600, 
+            0 0 80px #ff6600;
+    }
+  }
+  @keyframes rotateAndGrow {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    100% {
+      transform: rotate(360deg) scale(2);
+    }
+  }
+  
+  
+  #frontdeveloper{
+    letter-spacing: 20px;
+
+  }
