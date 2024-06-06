@@ -21,8 +21,8 @@ import { Scroll, ScrollControls } from "@react-three/drei";
 // import { ScrollCenter } from "./components/scrollcenter";
 
 function Model({ url }) {
-  // const gltf = useLoader(GLTFLoader ,'https://models.readyplayer.me/6658b4c836c854537e293781.glb');
-  const gltf = useLoader(GLTFLoader, './gun_satellite_panel_computer.glb');
+  const gltf = useLoader(GLTFLoader ,'https://models.readyplayer.me/6658b4c836c854537e293781.glb');
+  // const gltf = useLoader(GLTFLoader, './gun_satellite_panel_computer.glb');
   return <primitive object={gltf.scene} scale={1} />;
 }
 
@@ -73,23 +73,23 @@ function App() {
           <YouTube color='secondary'/> 
         </ul>    
      </div>
-     {/* <InterfacePortifolio/> */}
+     <InterfacePortifolio/>
        {/* R3F Canvas */}
       <Canvas
-        // concurrent
-        // colorManagement
+        concurrent
+        colorManagement
         shadows camera={{ position: [0, 3, 10], fov: 42 }}> 
-        {/* Lights Component */}
-          {/* <color attach="background" args={["rgb(1, 27, 32)"]} > */}
+        
+         
             <ScrollControls  pages={5} damping={0.1}>
-              {/* <ScrollCenter  section={section} onSectionChange={setSection}/> */}
+            
             
                 <Lights />
                 <mesh >
                    <Model/>
                 </mesh>
                 
-                 {/* the html content */}
+              
                 <Scroll html >
                   <InterfacePortifolio/>
                   
@@ -97,7 +97,7 @@ function App() {
 
             </ScrollControls>
           
-          {/* </color> */}
+         
          
       </Canvas>
       
