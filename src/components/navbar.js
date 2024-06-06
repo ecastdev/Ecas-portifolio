@@ -34,7 +34,7 @@ const toogleNav = ()=>{
             <div className="container px-4 mx-auto relative text-sm ">
                 <div className=" flex  justify-between items-center ">
                     <div className=" flex items-center flex-shrink-0">
-                      <h1 className="text-center text-white font-subt text-3xl">Ecast Portifolio</h1>
+                      <h1 className="text-center text-white font-title text-3xl">Ecast Portifolio</h1>
                         {/* <img className="h-16 w-16 lg:h-24 lg:w-32 mr-2 " src={ ecasLogo} alt="logo"/> */}
                     </div>
                     <ul className=" hidden lg:flex ml-14 space-x-12">
