@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ecas-portifolio/static/css/main.7d7564b5.css",
-    "main.js": "/Ecas-portifolio/static/js/main.91f000c4.js",
+    "main.css": "/Ecas-portifolio/static/css/main.8822ee3c.css",
+    "main.js": "/Ecas-portifolio/static/js/main.f35d8d40.js",
     "static/js/453.dc2a1669.chunk.js": "/Ecas-portifolio/static/js/453.dc2a1669.chunk.js",
     "static/media/bg front brain.png": "/Ecas-portifolio/static/media/bg front brain.8c580003bcf54dc9c7aa.png",
     "static/media/bg back brain.png": "/Ecas-portifolio/static/media/bg back brain.556e36fe995f2fe6354f.png",
@@ -20,12 +20,12 @@
     "static/media/remove html.png": "/Ecas-portifolio/static/media/remove html.edc2cd38362bf9990b79.png",
     "static/media/scene.gltf": "/Ecas-portifolio/static/media/scene.c27cbf57fcfc9f502888.gltf",
     "index.html": "/Ecas-portifolio/index.html",
-    "main.7d7564b5.css.map": "/Ecas-portifolio/static/css/main.7d7564b5.css.map",
-    "main.91f000c4.js.map": "/Ecas-portifolio/static/js/main.91f000c4.js.map",
+    "main.8822ee3c.css.map": "/Ecas-portifolio/static/css/main.8822ee3c.css.map",
+    "main.f35d8d40.js.map": "/Ecas-portifolio/static/js/main.f35d8d40.js.map",
     "453.dc2a1669.chunk.js.map": "/Ecas-portifolio/static/js/453.dc2a1669.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d7564b5.css",
-    "static/js/main.91f000c4.js"
+    "static/css/main.8822ee3c.css",
+    "static/js/main.f35d8d40.js"
   ]
 }
