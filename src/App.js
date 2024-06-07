@@ -8,6 +8,8 @@ import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
 
+
+
 function App() {
   const particlesInit = useCallback(async engine => {
     console.log(engine);
@@ -19,7 +21,7 @@ const particlesLoaded = useCallback(async container => {
     await console.log(container);
 }, []);
   return (
-    <div className='ecasApp'>
+    <div className=''>
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -133,7 +135,7 @@ const particlesLoaded = useCallback(async container => {
           retina_detect: true
         }}
       />
-        <div className=" absolute top-3 z-10 overflow-scroll  flex flex-col items-center justify-center w-full h-full">
+        <div className=" absolute top-3 overflow-scroll  flex flex-col items-center  w-full h-full">
           <Navbar1/>
           <div className=' hidden lg:block gap-10 fixed top-20 right-16'>
             <ul>
@@ -152,7 +154,15 @@ const particlesLoaded = useCallback(async container => {
               <YouTube color='secondary'/> 
             </ul>    
         </div>
+        {/* <Intro/>
+        <AboutMe/>
+        <Skills/>
+        <Services/>
+        <Contact/> */}
         <InterfacePortifolio/>
+        <div className='h-96 lg:hidden'>
+
+        </div>
           
           
         </div>

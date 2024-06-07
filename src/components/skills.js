@@ -1,6 +1,6 @@
 
 // import { Card } from "flowbite-react";
-import { bgTailwind, bgfirebase,reactImg, bggithub, bggjava, bghtml, bgjavascript, bgmui, bgthreejs, ecast } from "./assests/assest"
+import { bgTailwind,reactlogo, bgfirebase, bggithub, bggjava, bghtml, bgjavascript, bgmui, bgthreejs, ecast } from "./assests/assest"
 import { motion } from "framer-motion";
 
 
@@ -11,7 +11,7 @@ export default function Skills(){
             titleskills: 'javscript',
         },
         {
-            iconskills: reactImg,
+            iconskills: reactlogo,
             titleskills: 'react framework',
         },
         {

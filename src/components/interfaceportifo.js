@@ -55,13 +55,7 @@ const theme = createTheme({
     return(
       <ThemeProvider theme={theme}>
         <>
-        <Intro/>
-        <AboutMe/>
-        <Skills/>
-        <Services/>
-        <Contact/>
-
-        intro
+        {/* intro */}
         <Animatingpage >
           <Intro/>
 
@@ -72,19 +66,38 @@ const theme = createTheme({
             
         </Animatingpage>
         {/* skills */}
+        <div className="mt-80 lg:mt-1">
         <Animatingpage>
             <Skills/>
             
         </Animatingpage>
+
+        </div>
+        
         {/* what l service */}
-        <Animatingpage >
-            <Services/>
-            
-        </Animatingpage>
+        <div className="mt-44 lg:mt-1">
+          <Animatingpage  >
+              <Services/>
+              
+          </Animatingpage>
+
+        </div>
+        <div className="mt-44 lg:mt-1">
         <Animatingpage>
             <Contact/>
             
         </Animatingpage>
+
+        </div>
+        <div className=" h-96 lg:hidden">
+        <Animatingpage>
+            
+            
+        </Animatingpage>
+
+        </div>
+        
+       
         
 
         </>

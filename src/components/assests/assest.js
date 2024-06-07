@@ -15,5 +15,8 @@ import bgfirebase from './remove firebase.png';
 import codingAnimation from './Animation - 1717285793224.json'
 import ecast from './ecast.jpg';
 import reactImg from './react image.png';
-export {ecastID, reactImg, ecast, cargame, ecasLogo, bgcoin, backbrain ,frontbrain,  codingAnimation,
+import meAnimation from './me animation.json';
+import ecastDark from './ecast intro dark.png';
+import reactlogo from './remove react logo.png';
+export {ecastID,reactlogo, ecastDark, meAnimation, reactImg, ecast, cargame, ecasLogo, bgcoin, backbrain ,frontbrain,  codingAnimation,
     bgTailwind,bgfirebase,bggithub, bggjava,bghtml,bgjavascript, bgmui ,bgthreejs}; 
