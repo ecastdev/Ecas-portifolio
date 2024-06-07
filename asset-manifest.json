@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Ecas-portifolio/static/css/main.7d7564b5.css",
+    "main.js": "/Ecas-portifolio/static/js/main.91f000c4.js",
+    "static/js/453.dc2a1669.chunk.js": "/Ecas-portifolio/static/js/453.dc2a1669.chunk.js",
+    "static/media/bg front brain.png": "/Ecas-portifolio/static/media/bg front brain.8c580003bcf54dc9c7aa.png",
+    "static/media/bg back brain.png": "/Ecas-portifolio/static/media/bg back brain.556e36fe995f2fe6354f.png",
+    "static/media/bg coin.png": "/Ecas-portifolio/static/media/bg coin.c94f6ae9671bae5cabb2.png",
+    "static/media/ecast.jpg": "/Ecas-portifolio/static/media/ecast.513f8dc024d69fd7d0e1.jpg",
+    "static/media/ecast intro dark.png": "/Ecas-portifolio/static/media/ecast intro dark.ca0168443bcbf59e39eb.png",
+    "static/media/Remove-bg.ai_1715716444500.png": "/Ecas-portifolio/static/media/Remove-bg.ai_1715716444500.e6c8790e29d7337a2f8d.png",
+    "static/media/remove ecas digital.png": "/Ecas-portifolio/static/media/remove ecas digital.7309d7d7b8853c838a26.png",
+    "static/media/remove react logo.png": "/Ecas-portifolio/static/media/remove react logo.e45ffe415998c0c141e5.png",
+    "static/media/remove three js.png": "/Ecas-portifolio/static/media/remove three js.e1ea0c9c25214886c0a4.png",
+    "static/media/remove firebase.png": "/Ecas-portifolio/static/media/remove firebase.0454f10432f2cdd13ff2.png",
+    "static/media/remove java.png": "/Ecas-portifolio/static/media/remove java.a210081b6d94cc4198eb.png",
+    "static/media/remove github.png": "/Ecas-portifolio/static/media/remove github.d207ded09f5627efcdbb.png",
+    "static/media/remove tailwind css.png": "/Ecas-portifolio/static/media/remove tailwind css.96439cffed0bf84a7329.png",
+    "static/media/remove javascript.png": "/Ecas-portifolio/static/media/remove javascript.f7df0178768952c3c5d0.png",
+    "static/media/remove html.png": "/Ecas-portifolio/static/media/remove html.edc2cd38362bf9990b79.png",
+    "static/media/scene.gltf": "/Ecas-portifolio/static/media/scene.c27cbf57fcfc9f502888.gltf",
+    "index.html": "/Ecas-portifolio/index.html",
+    "main.7d7564b5.css.map": "/Ecas-portifolio/static/css/main.7d7564b5.css.map",
+    "main.91f000c4.js.map": "/Ecas-portifolio/static/js/main.91f000c4.js.map",
+    "453.dc2a1669.chunk.js.map": "/Ecas-portifolio/static/js/453.dc2a1669.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d7564b5.css",
+    "static/js/main.91f000c4.js"
+  ]
+}
