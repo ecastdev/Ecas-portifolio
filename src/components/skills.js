@@ -84,7 +84,7 @@ export default function Skills(){
                   },
                 }}
 
-                 src={ecast} alt='ecast' className='w-96 h-full rounded-lg border border-amber-700 border-spacing-80'/>
+                 src={ecast} id="ecastimg" alt='ecast' className='w-96 h-full rounded-lg border border-amber-700 border-spacing-80'/>
                 <div className="grid mt-5 lg:mt-10 place-content-center grid-cols-2 lg:grid-cols-3 gap-10">
                 {skils.map((skill, index) => (
                         <motion.div

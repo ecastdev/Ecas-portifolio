@@ -16,7 +16,7 @@ const Animatingpage = (props) => {
     return (
       <motion.section
         className={`
-    h-screen w-screen p-8 max-w-screen-2xl mx-auto
+    h-screen  p-8  mx-auto
     flex flex-col items-start justify-center
     `}
         initial={{
@@ -55,8 +55,13 @@ const theme = createTheme({
     return(
       <ThemeProvider theme={theme}>
         <>
-        {/* intro */}
-        
+        <Intro/>
+        <AboutMe/>
+        <Skills/>
+        <Services/>
+        <Contact/>
+
+        intro
         <Animatingpage >
           <Intro/>
 
@@ -69,7 +74,7 @@ const theme = createTheme({
         {/* skills */}
         <Animatingpage>
             <Skills/>
-         
+            
         </Animatingpage>
         {/* what l service */}
         <Animatingpage >

@@ -39,21 +39,22 @@ export default function Contact(){
                   duration: 1,
                   delay: 0.9,
                 },
-              }} className='mt-16 bg-amber-700 rounded-lg grid place-content-center w-72 lg:w-96 h-80 lg:h-96 '>
-            <form className='flex flex-col items-center gap-3 '>
-                <label className='text-center text-xl lg:text-3xl text-white mt-5 font-subt'>Email</label>
-                <input type="email"  placeholder="email" className='rounded-lg mt-2 '/>
-                <label className='text-center text-xl lg:text-3xl text-white font-subt'>Password</label>
-                <input type="password"  placeholder="password" className='rounded-lg mt-2 '/>
-                <button className='rounded-lg bg-slate-600 text-amber-700 w-20 text-center mt-9 h-6 lg:h-12'>
-                  contact
-                </button>
+              }} className='mt-16 bg-amber-700 rounded-lg grid place-content-center w-72 lg:w-96 h-72 lg:h-80 '>
+              <form className='  flex flex-col items-center gap-6 '>
+                  <label className='text-center text-xl lg:text-3xl text-white  font-subt'>Email</label>
+                  <input type="email"  placeholder="email" className='rounded-lg  '/>
+                  <label className='text-center text-xl lg:text-3xl text-white font-subt'>Password</label>
+                  <input type="password"  placeholder="password" className='rounded-lg '/>
+                  <button className='rounded-lg bg-slate-600 text-amber-700 w-20 text-center h-6 lg:h-12'>
+                    contact
+                  </button>
 
-            </form>
+              </form>
 
-            <div className='bg-amber-700 mt-14 lg:mt-44  h-2 w-96'></div>
+            
 
            </motion.div>
+           <div className='bg-amber-700 mt-6 lg:mt-9  h-2 w-96'></div>
            
             <motion.div
              initial={{
