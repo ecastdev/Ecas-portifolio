@@ -6,7 +6,7 @@ export default function Intro(){
     return(
       <div id="home" className='flex flex-col justify-center items-center lg:flex-row'>
 
-            <div id='#' className="flex flex-col items-center mt-32 justify-center h-screen">
+            <div id='#' className="flex flex-col items-center mt-32 lg:mt-1 justify-center h-screen">
                     <motion.h1
                     initial={{
                       opacity: 0,
@@ -20,7 +20,7 @@ export default function Intro(){
                         delay: 0.9,
                       },
                     }}
-                    className="text-center font-intro mt-96 text-6xl lg:text-7xl text-amber-600">
+                    className="text-center font-intro mt-96 lg:mt-0 text-6xl lg:text-7xl text-amber-600">
                       Hi! Am Ecast
                     </motion.h1>
                     <motion.h2
